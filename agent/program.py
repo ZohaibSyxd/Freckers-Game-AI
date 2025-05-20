@@ -21,7 +21,7 @@ ILLEGAL_BLUE_DIRECTIONS = set([
 class Agent:
     """
     This class is the "entry point" for your agent, providing an interface to
-    respond to various Freckers game events.
+    respond to various Freckers game events, added full implementation.
     """
 
     def __init__(self, color: PlayerColor, **referee: dict):
